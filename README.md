@@ -26,6 +26,7 @@ These results extend the theoretical framework established by **Craig, van Itter
 ## 🚀 Usage
 
 Both scripts use an optimized dynamic programming approach with memoization (`functools.lru_cache`) to compute partition statistics efficiently.
+All the scripts were run in Google Colaboratory. The code can be copy-pasted into a cell and executed to produce the mentioned output.
 
 
 
