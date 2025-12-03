@@ -5,11 +5,11 @@ This repository contains Python implementations and verification scripts for two
 
 This work has been archived and assigned a permanent identifier on Zenodo:
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXX.svg)](https://doi.org/10.5281/zenodo.XXXX)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17796189.svg)](https://doi.org/10.5281/zenodo.17796189)
 
 
-- DOI: `10.5281/zenodo.XXXX`
-- URL: `[https://zenodo.org/records/XXXX](https://zenodo.org/records/XXXX)`
+- DOI: `10.5281/zenodo.17796189`
+- URL: `[https://zenodo.org/records/17796189](https://zenodo.org/records/17796189)`
 
 ## Abstract
 
@@ -23,7 +23,7 @@ These results extend the theoretical framework established by **Craig, van Itter
 `verify_binomial_detector.py` - [Binomial-Basis Cubic Detector] : A compact reformulation of the cubic detector using binomial coefficients, revealing a structural symmetry where $M_1$ and $M_2$ are weighted identically.
 
 
-## 🚀 Usage
+## Usage
 
 Both scripts use an optimized dynamic programming approach with memoization (`functools.lru_cache`) to compute partition statistics efficiently.
 All the scripts were run in Google Colaboratory. The code can be copy-pasted into a cell and executed to produce the mentioned output.
@@ -40,20 +40,19 @@ All the scripts were run in Google Colaboratory. The code can be copy-pasted int
 
 If you use this work, please cite the paper using the Zenodo archive.
 
-@misc{naladiga_venkat_2025_17066282,
+@misc{naladiga_venkat_2025_17796189,
   author       = {Naladiga Venkat, Arvind},
-  title        = {To be uploaded
+  title        = {Explicit Prime Detectors via Systematic Partition
+                   Function Nullspace Computation
                   },
-  month        = sep,
+  month        = dec,
   year         = 2025,
   publisher    = {Zenodo},
-  version      = {v2},
-  doi          = {10.5281/zenodo.XXXX},
-  url          = {https://doi.org/10.5281/zenodo.XXXX},
+  doi          = {10.5281/zenodo.17796189},
+  url          = {https://doi.org/10.5281/zenodo.17796189},
 }
 
-
-## 🙏 Acknowledgments
+## Acknowledgments
 Based on the foundational work of Craig, van Ittersum, and Ono: *"Integer partitions detect the primes"* (PNAS, 2024).
 
 
